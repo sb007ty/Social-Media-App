@@ -2,21 +2,21 @@
   "posts": [
     {
       "id": "1",
-      "userId": 2,
-      "title": "Birthday Party",
-      "content": "A birthday party is a social gathering held to celebrate the birth of a person. Birthday parties are common for children, although adults may also hold parties to celebrate their birthdays. Birthday parties are typically hosted by a family member or close friend of the person whose birthday is being celebrated.",
-      "date": "2023-10-27T12:00:00.000Z",
+      "title": "dw",
+      "content": "dw",
       "reactions": {
         "thumbsUp": 0,
-        "hooray": 0,
-        "heart": 0,
+        "hooray": 5,
+        "heart": 7,
         "rocket": 0,
         "eyes": 0
-      }
+      },
+      "userId": "2",
+      "date": "2024-04-27T16:40:26.291Z"
     },
     {
       "id": "2",
-      "userId": 3,
+      "userId": "3",
       "title": "Work Meeting",
       "content": "A work meeting is a gathering of colleagues or team members to discuss work-related topics. Meetings can be formal or informal, and they can be held in person or virtually. The purpose of a work meeting can vary depending on the needs of the team. Some common reasons to hold work meetings include:",
       "date": "2023-03-15T09:00:00.000Z",
@@ -30,7 +30,7 @@
     },
     {
       "id": "3",
-      "userId": 1,
+      "userId": "1",
       "title": "Movie Night",
       "content": "A movie night is a social gathering where people watch a movie together. Movie nights can be held at home, at a theater, or outdoors. They can be a fun and relaxing way to spend time with friends and family.",
       "date": "2023-08-04T19:00:00.000Z",
@@ -44,7 +44,7 @@
     },
     {
       "id": "4",
-      "userId": 2,
+      "userId": "2",
       "title": "Game Night",
       "content": "A game night is a social gathering where people play games together. Game nights can be a fun and competitive way to spend time with friends and family. There are many different types of games that can be played at a game night, such as board games, card games, video games, and more.",
       "date": "2023-12-25T18:00:00.000Z",
@@ -58,7 +58,7 @@
     },
     {
       "id": "5",
-      "userId": 1,
+      "userId": "1",
       "title": "Holiday Celebration",
       "content": "A holiday celebration is a special event held to commemorate a particular holiday. Holidays can be religious, secular, or cultural. Some common holidays that are celebrated around the world include Christmas, Hanukkah, Diwali, Eid al-Fitr, and Thanksgiving.",
       "date": "2023-01-01T00:00:00.000Z",
@@ -69,6 +69,20 @@
         "rocket": 5,
         "eyes": 0
       }
+    },
+    {
+      "id": "1",
+      "title": "bday",
+      "content": "new bday",
+      "reactions": {
+        "thumbsUp": 1,
+        "hooray": 3,
+        "heart": 0,
+        "rocket": 2,
+        "eyes": 2
+      },
+      "userId": "2",
+      "date": "2023-10-27T12:00:00.000Z"
     }
   ],
   "users": [
@@ -83,6 +97,10 @@
     {
       "id": "2",
       "name": "Madison Price"
+    },
+    {
+      "id": "3",
+      "name": "Helena Baker"
     }
   ]
 }
