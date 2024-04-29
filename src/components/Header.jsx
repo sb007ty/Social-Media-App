@@ -64,7 +64,7 @@ export default function Header() {
         container
         sx={{ flexDirection: "row", alignItems: "center", padding: "50px" }}
       >
-        <Grid item sx={{ justifyContent: "center" }}>
+        <Grid item>
           <FormControl sx={{ width: "200px" }}>
             <InputLabel id="demo-simple-select-label">User</InputLabel>
             <Select
