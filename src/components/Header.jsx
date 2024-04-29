@@ -10,6 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser } from "../redux/features/usersSlice";
 import { Link, useLocation } from "react-router-dom";
+import LogoutPage from "./LogoutPage";
 export default function Header() {
   const location = useLocation();
   console.log(location.pathname);
@@ -59,19 +60,27 @@ export default function Header() {
         marginBottom: "50px",
       }}
     >
-      <Grid container sx={{ justifyContent: "center" }}>
-        <FormControl sx={{ width: "200px" }}>
-          <InputLabel id="demo-simple-select-label">User</InputLabel>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={userSelected}
-            label="User"
-            onChange={handleChange}
-          >
-            {getUserDropDown()}
-          </Select>
-        </FormControl>
+      <Grid
+        container
+        sx={{ flexDirection: "row", alignItems: "center", padding: "50px" }}
+      >
+        <Grid item sx={{ justifyContent: "center" }}>
+          <FormControl sx={{ width: "200px" }}>
+            <InputLabel id="demo-simple-select-label">User</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={userSelected}
+              label="User"
+              onChange={handleChange}
+            >
+              {getUserDropDown()}
+            </Select>
+          </FormControl>
+        </Grid>
+        <Grid item sx={{ marginLeft: "auto" }}>
+          <LogoutPage />
+        </Grid>
       </Grid>
       <Grid container>{getNaviagtionHistory()}</Grid>
     </Container>
